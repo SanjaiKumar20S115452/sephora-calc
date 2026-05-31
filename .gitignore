@@ -1,0 +1,25 @@
+# Environment variables - never push these
+.env
+.env.local
+.env.development
+.env.production
+
+# Node modules - too large to push
+node_modules/
+
+# Mac system files - not needed by teammates
+.DS_Store
+
+# VS Code settings - personal preference
+.vscode/
+
+# Build outputs - generated files
+dist/
+build/
+
+# Log files
+*.log
+npm-debug.log*
+
+# Coverage reports
+coverage/
