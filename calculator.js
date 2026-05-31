@@ -6,4 +6,12 @@ function subtract(a, b) {
   return a - b
 }
 
-module.exports = { add, subtract };
+function multiply(a, b) {
+  return a * b
+}
+
+function division(a, b) {
+  return b/a
+}
+
+module.exports = { add, subtract, multiply, division };
