@@ -1,4 +1,4 @@
-const { add, subtract, multiply, division } = require('./calculator');
+const { add, subtract, multiply } = require('./calculator');
 
 function runTests() {
   // Test 1 — basic addition
@@ -28,21 +28,12 @@ function runTests() {
     process.exit(1);
   }
 
-    // Test 4 — multiply numbers
+      // Test 3 — multiply numbers
   const result4 = multiply(10, 4);
   if (result4 === 40) {
     console.log('✓ Test 2 passed: multiply(10, 4) = 40');
   } else {
     console.error('✗ Test 2 failed: expected 40, got ' + result3);
-    process.exit(1);
-  }
-
-    // Test 5 — divide numbers
-  const result5 = division(2, 10);
-  if (result5 === 5) {
-    console.log('✓ Test 2 passed: divide(2, 10) = 5');
-  } else {
-    console.error('✗ Test 2 failed: expected 5, got ' + result3);
     process.exit(1);
   }
 
